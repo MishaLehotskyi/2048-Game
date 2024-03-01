@@ -20,6 +20,7 @@ function setGame() {
   messageStart.classList.add('hidden');
   startButton.classList.remove('start');
   startButton.classList.add('restart');
+  messageLost.classList.add('hidden');
   startButton.innerText = 'Restart';
 
   board = [
